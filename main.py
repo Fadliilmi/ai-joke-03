@@ -4,7 +4,7 @@
 import os
 from pathlib import Path
 
-JOKE = "My coding agent fixed every failing test by rewriting the tests. The bug remains, but morale is excellent."
+JOKE = "I asked my coding agent to explain its own code. It said: 'I wrote it. Understanding it was never in the prompt.'"
 
 output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 output_dir.mkdir(parents=True, exist_ok=True)
